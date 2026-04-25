@@ -1,90 +1,26 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
+  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
   network: ws
   port: 16622
-  server: m.cnmjin.net
+  server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0
+  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
   ws-headers:
-    Host: f623ed67b551aedf776492df3bf507f4.mobgslb.tbcache.com
+    Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: f623ed67b551aedf776492df3bf507f4.mobgslb.tbcache.com
+      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
   cipher: auto
   name: 'A - 🇭🇰 HK 03 TG: @nodpai'
   network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 88eebed0-9f57-4914-b9a3-403d1bc2c7f1
-  ws-headers:
-    Host: 0d4a9b9415e8fa3ab4f1a8607a773d28.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: 0d4a9b9415e8fa3ab4f1a8607a773d28.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 07 TG: @nodpai'
-  network: ws
   port: 16622
   server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-  ws-headers:
-    Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 09 TG: @nodpai'
-  network: ws
-  port: 16632
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 88eebed0-9f57-4914-b9a3-403d1bc2c7f1
-  ws-headers:
-    Host: 0d4a9b9415e8fa3ab4f1a8607a773d28.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: 0d4a9b9415e8fa3ab4f1a8607a773d28.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-  ws-headers:
-    Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 11 TG: @nodpai'
-  network: ws
-  port: 16622
-  server: t.cnmjcn.cyou
   type: vmess
   udp: true
   uuid: a95a83d7-b9cf-43ad-8c74-4df64f608422
@@ -97,31 +33,51 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 13 TG: @nodpai'
+  name: 'A - 🇭🇰 HK 04 TG: @nodpai'
+  port: 7754
+  server: efan.dnsefan04881.com
+  type: vmess
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: a95a83d7-b9cf-43ad-8c74-4df64f608422
+  ws-opts:
+    headers:
+      Host: ba81e2cd4af365e9a83fe38cc3223a19.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
+  network: ws
+  port: 16622
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 88eebed0-9f57-4914-b9a3-403d1bc2c7f1
+  ws-headers:
+    Host: 0d4a9b9415e8fa3ab4f1a8607a773d28.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: 0d4a9b9415e8fa3ab4f1a8607a773d28.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 11 TG: @nodpai'
   port: 7754
   server: efan.dnsefan04881.com
   type: vmess
   uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 14 TG: @nodpai'
-  network: ws
-  port: 16622
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0
-  ws-headers:
-    Host: f623ed67b551aedf776492df3bf507f4.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: f623ed67b551aedf776492df3bf507f4.mobgslb.tbcache.com
-    path: /
-  ws-path: /
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 16 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 14 TG: @nodpai'
   network: ws
   port: 16632
   server: planb.mojcn.com
@@ -137,18 +93,42 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
+  name: 'B - 🇭🇰 HK 15 TG: @nodpai'
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  type: vmess
+  uuid: fd0398c2-33c8-45d1-bdf9-a97b576cac45
+  ws-opts:
+    headers:
+      Host: 7f1ebaae45bada2b20dc845012ddd3a4.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 16 TG: @nodpai'
+  network: ws
+  port: 16622
+  server: m.cnmjin.net
+  type: vmess
+  uuid: fd0398c2-33c8-45d1-bdf9-a97b576cac45
+  ws-opts:
+    headers:
+      Host: 7f1ebaae45bada2b20dc845012ddd3a4.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 'B - 🇭🇰 HK 17 TG: @nodpai'
   network: ws
   port: 16622
-  server: t.cnmjcn.cyou
+  server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: 8d95151d-d626-4ed2-83ac-29631f44085b
+  uuid: a95a83d7-b9cf-43ad-8c74-4df64f608422
   ws-headers:
-    Host: d26bc33c22885694ea3e533bfbf33059.mobgslb.tbcache.com
+    Host: ba81e2cd4af365e9a83fe38cc3223a19.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: d26bc33c22885694ea3e533bfbf33059.mobgslb.tbcache.com
+      Host: ba81e2cd4af365e9a83fe38cc3223a19.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -156,47 +136,7 @@ proxies:
   name: 'B - 🇭🇰 HK 18 TG: @nodpai'
   network: ws
   port: 16622
-  server: planb.mojcn.com
-  type: vmess
-  uuid: fd0398c2-33c8-45d1-bdf9-a97b576cac45
-  ws-opts:
-    headers:
-      Host: 7f1ebaae45bada2b20dc845012ddd3a4.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 19 TG: @nodpai'
-  network: ws
-  port: 16632
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 8d95151d-d626-4ed2-83ac-29631f44085b
-  ws-headers:
-    Host: d26bc33c22885694ea3e533bfbf33059.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: d26bc33c22885694ea3e533bfbf33059.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 20 TG: @nodpai'
-  network: ws
-  port: 16622
   server: t.cnmjcn.cyou
-  type: vmess
-  uuid: fd0398c2-33c8-45d1-bdf9-a97b576cac45
-  ws-opts:
-    headers:
-      Host: 7f1ebaae45bada2b20dc845012ddd3a4.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 21 TG: @nodpai'
-  network: ws
-  port: 16632
-  server: planb.mojcn.com
   type: vmess
   udp: true
   uuid: 454a7451-9380-489b-91cb-2b5d2214f18a
@@ -209,23 +149,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 22 TG: @nodpai'
-  network: ws
-  port: 16622
-  server: m.cnmjin.net
-  type: vmess
-  udp: true
-  uuid: 88eebed0-9f57-4914-b9a3-403d1bc2c7f1
-  ws-headers:
-    Host: 0d4a9b9415e8fa3ab4f1a8607a773d28.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: 0d4a9b9415e8fa3ab4f1a8607a773d28.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 23 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 19 TG: @nodpai'
   network: ws
   port: 16632
   server: m.cnmjin.net
@@ -241,7 +165,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 24 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 20 TG: @nodpai'
   network: ws
   port: 16622
   server: m.cnmjin.net
@@ -255,13 +179,22 @@ proxies:
       Host: 740db99bdd99deb0b1510e7edca44162.mobgslb.tbcache.com
     path: /
   ws-path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 25 TG: @nodpai'
-  port: 54022
-  server: 103.181.164.145
+  name: 'B - 🇭🇰 HK 21 TG: @nodpai'
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  udp: true
+  uuid: 454a7451-9380-489b-91cb-2b5d2214f18a
+  ws-headers:
+    Host: 740db99bdd99deb0b1510e7edca44162.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: 740db99bdd99deb0b1510e7edca44162.mobgslb.tbcache.com
+    path: /
+  ws-path: /
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian

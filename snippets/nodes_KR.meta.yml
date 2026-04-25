@@ -147,27 +147,6 @@ proxies:
       Host: ynwta9.api-edge.fgfw.qzz.io
     max-early-data: 2560
     path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 🇰🇷KR_12|1.5MB/s
-  network: ws
-  port: 25448
-  server: 221.164.228.56
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    max-early-data: 2560
-    path: /danfeng
 - name: 🇰🇷KR_13|1.3MB/s
   network: ws
   port: 12345
@@ -185,42 +164,6 @@ proxies:
         like Gecko) Chrome/62.0.3202.94 Safari/537.36
     max-early-data: 2560
     path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 🇰🇷KR_14|1.4MB/s
-  network: ws
-  port: 10001
-  server: 218.155.125.99
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    max-early-data: 2560
-    path: /danfeng
-- name: 🇰🇷KR_15|1.4MB/s
-  network: ws
-  port: 13579
-  server: 211.198.165.21
-  servername: snzeys.edge-node-a1.fgfw.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snzeys.edge-node-a1.fgfw.qzz.io
-    path: /danfeng
-  xudp: true
 - name: KR_speednode_0107
   port: 1090
   server: 121.169.46.116
