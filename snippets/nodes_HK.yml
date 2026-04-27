@@ -1,17 +1,9 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇭🇰 HK 22 TG: @nodpai'
-  port: 30809
-  server: v9.hdacd.com
-  servername: v9.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 23 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 11 TG: @nodpai'
   network: ws
-  port: 16632
+  port: 16622
   server: planb.mojcn.com
   type: vmess
   udp: true
@@ -25,10 +17,10 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 25 TG: @nodpai'
+  name: 'C - 🇭🇰 HK 20 TG: @nodpai'
   network: ws
-  port: 16632
-  server: m.cnmjin.net
+  port: 16622
+  server: t.cnmjcn.cyou
   type: vmess
   udp: true
   uuid: 87b04f1c-cd5f-43b0-a385-e9712f7a3db5
@@ -39,6 +31,13 @@ proxies:
       Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
     path: /
   ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 'D - 🇭🇰 HK 24 TG: @nodpai'
+  port: 54022
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian

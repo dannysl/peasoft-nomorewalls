@@ -1,4 +1,16 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇹🇼 TW 09 TG: @nodpai'
+  network: ws
+  port: 16616
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: f091e44a-daee-4782-a910-d699a0c1145f
+  ws-opts:
+    headers:
+      Host: 9ca5d7234ca908eb0cefe9fdb6d61d35.mobgslb.tbcache.com
+    path: /
 - cipher: aes-128-gcm
   name: 🇹🇼TW_1|2.5MB/s
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5

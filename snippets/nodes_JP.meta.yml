@@ -1,29 +1,38 @@
 proxies:
-- name: 'B - 🇯🇵 JP 03 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 01 TG: @nodpai'
   obfs: salamander
   obfs-password: CF7WJGiw6r1c8imX
   password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
   port: 5443
   server: jp-hy2.onetaplink.app
-  skip-cert-verify: false
   sni: hy2-jp.onetaplink.app
   type: hysteria2
-  udp: true
-- name: 'B - 🇯🇵 JP 17 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-jp-001.fastervpn.world
+  server: vpn-jp-004.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-jp-001.fastervpn.world
+  sni: vpn-jp-004.fastervpn.world
   type: hysteria2
-- name: 'B - 🇯🇵 JP 18 TG: @nodpai'
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 3235
-  server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  network: tcp
+  port: 10000
+  reality-opts:
+    public-key: 4gYUXPoNpZB6NeR_1BjjM_p20Z4Kmrir-LGgVFl5mTg
+    short-id: '!!str 92e9c1a45bf5'
+  server: node101.nodejiajia.online
+  servername: www.apple.com
+  skip-cert-verify: false
   tls: true
-  type: http
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 'B - 🇯🇵 JP 25 TG: @nodpai'
+  type: vless
+  udp: true
+  uuid: 74484df2-6208-424a-a3f2-1561937b2f36
+- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
   password: f8eca8df-a1a5-4918-a194-d34112a3673f
   port: 443
   server: cj04.71edgeiqiyi.com
@@ -32,30 +41,47 @@ proxies:
   username: f8eca8df-a1a5-4918-a194-d34112a3673f
 - alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 27 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 13 TG: @nodpai'
   network: ws
   port: 16617
   server: t.cnmjcn.cyou
   type: vmess
-  udp: true
   uuid: 87b04f1c-cd5f-43b0-a385-e9712f7a3db5
-  ws-headers:
-    Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
   ws-opts:
     headers:
       Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
     path: /
-  ws-path: /
-- name: 'C - 🇯🇵 JP 29 TG: @nodpai'
+- name: 'C - 🇯🇵 JP 18 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 443
+  server: jc8U654714155239871.j8cdn.cdnxiaohongshu.com
+  tls: true
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- name: 'C - 🇯🇵 JP 19 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 40443
+  server: jbU654714155239871.j4cdn.cdnxiaohongshu.com
+  tls: true
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- name: 'C - 🇯🇵 JP 21 TG: @nodpai'
   password: f8eca8df-a1a5-4918-a194-d34112a3673f
   port: 7443
   server: jc7U654714155239.asia.steamliveonline.com
   tls: true
   type: http
   username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- name: 'C - 🇯🇵 JP 22 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 443
+  server: jdataU654714155239871.jcdn.cdnxiaohongshu.com
+  tls: true
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
 - alterId: 0
   cipher: auto
-  name: 'C - 🇯🇵 JP 31 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 24 TG: @nodpai'
   network: ws
   port: 16617
   server: t.cnmjcn.cyou
@@ -65,6 +91,25 @@ proxies:
     headers:
       Host: 9ca5d7234ca908eb0cefe9fdb6d61d35.mobgslb.tbcache.com
     path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'C - 🇯🇵 JP 26 TG: @nodpai'
+  port: 52006
+  security: tls
+  server: cluster-other-1.firstvideocdn.ru
+  servername: cluster-other-1.firstvideocdn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 75807638-6f19-0190-ae08-38492ee85c88
+- name: 'C - 🇯🇵 JP 27 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 443
+  server: jpfileU654714155239.harmonyoscloudcdn.com
+  tls: true
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
