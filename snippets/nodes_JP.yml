@@ -1,91 +1,72 @@
 proxies:
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
   name: 'B - 🇯🇵 JP 13 TG: @nodpai'
-  network: ws
-  port: 16617
-  server: t.cnmjcn.cyou
+  network: http
+  port: 58051
+  server: 103.127.243.55
+  tls: false
   type: vmess
-  uuid: 87b04f1c-cd5f-43b0-a385-e9712f7a3db5
-  ws-opts:
-    headers:
-      Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇯🇵 JP 24 TG: @nodpai'
-  network: ws
-  port: 16617
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: f091e44a-daee-4782-a910-d699a0c1145f
-  ws-opts:
-    headers:
-      Host: 9ca5d7234ca908eb0cefe9fdb6d61d35.mobgslb.tbcache.com
-    path: /
-- name: 日本|@ripaojiedian
-  network: tcp
+  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+- name: 🇯🇵 日本|@ripaojiedian
   password: BxceQaOe
   port: 3357
   server: 18.181.191.24
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 日本3|@ripaojiedian
-  network: tcp
+- name: 🇯🇵 日本3|@ripaojiedian
   password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 2001
   server: 52.197.216.139
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
+- name: 🇯🇵 日本2|@ripaojiedian
   password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 9201
   server: 43.198.79.128
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-128-gcm
-  name: 🇯🇵JP_1|2.5MB/s
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: yg2.ygkkk.dpdns.org
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇯🇵JP_2|3.1MB/s
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: cf.tencentapp.cn
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇯🇵JP_3|2.1MB/s
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  type: ss
-  udp: true
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1951
+  server: 54.249.198.171
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 日本2|@ripaojiedian
+  network: tcp
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
+  port: 4380
+  server: 52.197.180.134
+  sni: www.nintendogames.net
+  type: trojan
+- name: 日本3|@ripaojiedian
+  network: tcp
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
+  port: 4380
+  server: 57.180.240.230
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP_1|1.5MB/s
+  network: ws
+  port: 22013
+  server: 76c3.earthdraft.onezz.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0
+  ws-opts:
+    headers:
+      Host: ithome.com
+    path: /chat

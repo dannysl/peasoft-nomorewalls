@@ -1,49 +1,27 @@
 proxies:
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 'A - 🇺🇸 US 01 TG: @nodpai'
-  password: a1102edc-f382-4720-99f5-ecc0a74507af
-  port: 40001
-  server: 107.175.6.66
-  skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: a1102edc-f382-4720-99f5-ecc0a74507af
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 02 TG: @nodpai'
-  port: 443
-  security: tls
-  server: 84.32.70.100
-  servername: sha.normbot.ru
-  tls: true
-  type: vless
-  uuid: 1cc21fb6-b8ec-42c7-a57c-39e89ace379e
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 03 TG: @nodpai'
-  port: 180
-  server: 82.198.246.9
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
   encryption: none
-  name: 'B - 🇺🇸 US 04 TG: @nodpai'
-  network: ws
-  port: 8443
-  security: tls
-  server: 108.162.198.223
-  servername: tristandeng.cc.cd
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 03 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU
+    short-id: '!!str 4b6c2062816ce36b'
+  security: reality
+  server: dl-google.hopto.org
+  servername: dl.google.com
   tls: true
   type: vless
-  uuid: 52f94104-7a84-4342-8bcd-96969eb46cbe
-  ws-opts:
-    headers:
-      Host: tristandeng.cc.cd
-    path: /
+  uuid: 17b5f880-7862-4918-a0f8-f2fb5b3e71ea
+- name: 'B - 🇺🇸 US 04 TG: @nodpai'
+  password: 0b869f32-657e-11ee-a90c-f23c9313b177
+  port: 3443
+  server: 71089030-te8ao0-tfn5eh-24c4.los.west.wctype.com
+  sni: 71089030-te8ao0-tfn5eh-24c4.los.west.wctype.com
+  tls: true
+  type: http
+  username: 0b869f32-657e-11ee-a90c-f23c9313b177
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -51,72 +29,144 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: OEZ3C-1OCSYBikqcWudtPP3PpQq2RAI7rFPxWoTCDSc
-    short-id: '!!str bffe9292'
+    public-key: u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU
+    short-id: '!!str 9205695ed61577c2'
   security: reality
-  server: 132.226.147.10
-  servername: musicstatus.tv.apple.com
-  tls: true
-  type: vless
-  uuid: 4749475d-3a47-4175-a934-92e247127ed7
-- name: 'B - 🇺🇸 US 06 TG: @nodpai'
-  password: 0b869f32-657e-11ee-a90c-f23c9313b177
-  port: 443
-  server: 4bd2182f-te8ao0-tfn5eh-24c4.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  username: 0b869f32-657e-11ee-a90c-f23c9313b177
-- client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 07 TG: @nodpai'
-  port: 443
-  security: tls
-  server: 107.174.52.160
-  servername: www.colocrossing.com
-  tls: true
-  type: vless
-  uuid: bc989a09-5419-4985-909e-5e5c6501f314
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 08 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U
-    short-id: '!!str eef0f48d4a80651a'
-  security: reality
-  server: sha.normbot.ru
-  servername: sha.normbot.ru
-  tls: true
-  type: vless
-  uuid: 1cc21fb6-b8ec-42c7-a57c-39e89ace379e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 09 TG: @nodpai'
-  port: 443
-  security: tls
   server: dl-google.hopto.org
   servername: dl.google.com
   tls: true
   type: vless
-  uuid: 9fdb7fd4-d86a-4a6a-a612-af620a289435
-- client-fingerprint: chrome
-  encryption: none
+  uuid: 97f0743c-1276-48e2-91dd-ec24029e95c1
+- client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 10 TG: @nodpai'
-  network: tcp
+  name: 'B - 🇺🇸 US 06 TG: @nodpai'
   port: 443
   reality-opts:
-    public-key: u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU
-    short-id: '!!str dbdc342315bf2740'
-  security: reality
+    public-key: j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng
+    short-id: '!!str 4270b1ce3783864e'
+  server: us-1.bexum.fun
+  servername: us-1.bexum.fun
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 07 TG: @nodpai'
+  port: 180
+  server: 82.198.246.214
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: random
+  name: 'B - 🇺🇸 US 09 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 167.253.153.215
+  servername: a.c.e.m.n.o.r.s.u.v.w.x.a.c.trevely.de5.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 6d1dfcdf-f221-4765-b104-30216a977914
+  ws-opts:
+    headers:
+      Host: a.c.e.m.n.o.r.s.u.v.w.x.a.c.trevely.de5.net
+    path: /?ed=2560
+- name: 'B - 🇺🇸 US 10 TG: @nodpai'
+  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  port: 8443
+  server: d35d0d62-te9j40-tfmrui-duku.isp.cdnkuaishou.com
+  sni: d35d0d62-te9j40-tfmrui-duku.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+- name: 🇺🇸US_3|1.1MB/s
+  obfs: salamander
+  obfs-password: ODczNTFlNmQ0YWVlZGUzOQ==
+  password: bc989a09-5419-4985-909e-5e5c6501f314
+  port: 36002
+  server: 81.31.232.60
+  skip-cert-verify: true
+  sni: hk1.zongyunti.site
+  tfo: false
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 12 TG: @nodpai'
+  port: 180
+  server: 82.198.246.37
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 14 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.207.198.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇺🇸 US 15 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 194.59.5.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_1|1.1MB/s
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 17 TG: @nodpai'
+  port: 443
+  security: tls
   server: dl-google.hopto.org
   servername: dl.google.com
   tls: true
   type: vless
   uuid: d2b049ff-a6df-4f45-9d37-c6ddb74b863f
 - client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 11 TG: @nodpai'
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 18 TG: @nodpai'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: F8-vs46mNbq9-5gAP08KD420Jf1tdHwcefIDTFpEMSs
+    short-id: '!!str 30095c0f0d'
+  security: reality
+  server: miya.kosmolet.me
+  servername: max.ru
+  tls: true
+  type: vless
+  uuid: b61bf605-147f-429f-b10b-297e5e5fd02d
+- name: 'B - 🇺🇸 US 19 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -129,29 +179,78 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 12 TG: @nodpai'
+- client-fingerprint: random
+  name: 'B - 🇺🇸 US 20 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 167.253.153.253
+  servername: a.c.e.m.n.o.r.s.u.v.w.x.a.c.trevely.de5.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 6d1dfcdf-f221-4765-b104-30216a977914
+  ws-opts:
+    headers:
+      Host: a.c.e.m.n.o.r.s.u.v.w.x.a.c.trevely.de5.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 21 TG: @nodpai'
+  port: 443
+  security: tls
+  server: dl-google.hopto.org
+  servername: dl.google.com
+  tls: true
+  type: vless
+  uuid: 5d51d240-749c-4ca1-94b3-5bbaa89cb340
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 22 TG: @nodpai'
+  port: 180
+  server: 82.198.246.97
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 23 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU
+    short-id: '!!str 2be3252ede9ff935'
+  security: reality
+  server: dl-google.hopto.org
+  servername: dl.google.com
+  tls: true
+  type: vless
+  uuid: 7c294601-bf44-4746-b68d-34d21126850a
+- name: 'B - 🇺🇸 US 24 TG: @nodpai'
   password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: 09bce054-te5ts0-tir0zk-1hpo0.sjc.oshuawei.com
   tls: true
   type: http
   username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-- name: 'B - 🇺🇸 US 13 TG: @nodpai'
+- name: 'B - 🇺🇸 US 25 TG: @nodpai'
   network: ws
-  password: '!!str 1234567890'
   port: 443
-  server: 194.87.77.91
-  sni: kfm-bn0.pages.dev
+  security: tls
+  server: 69.164.245.25
+  servername: babayaga-6i7.pages.dev
+  skip-cert-verify: true
   tls: true
-  type: trojan
+  type: vless
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 'C - 🇺🇸 US 14 TG: @nodpai'
+      Host: babayaga-6i7.pages.dev
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 'B - 🇺🇸 US 26 TG: @nodpai'
   network: ws
   port: 443
-  server: 167.253.153.147
+  server: 167.253.153.253
   servername: a.c.e.m.n.o.r.s.u.v.w.x.a.c.trevely.de5.net
   skip-cert-verify: true
   type: vless
@@ -161,130 +260,125 @@ proxies:
       Host: a.c.e.m.n.o.r.s.u.v.w.x.a.c.trevely.de5.net
     path: /?ed=2560fp=randomsecurity=tls
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 15 TG: @nodpai'
-  port: 443
-  security: tls
-  server: dl-google.hopto.org
-  servername: dl.google.com
-  tls: true
-  type: vless
-  uuid: 6a95ea12-2cba-4152-b9ff-5a7f14e245e9
-- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 16 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU
-    short-id: '!!str 23f98183266eddee'
-  security: reality
-  server: dl-google.hopto.org
-  servername: dl.google.com
-  tls: true
-  type: vless
-  uuid: 52d91796-ca42-4757-8ceb-77d25f87dd7c
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 17 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU
-    short-id: '!!str d47b44295020d171'
-  security: reality
-  server: dl-google.hopto.org
-  servername: dl.google.com
-  tls: true
-  type: vless
-  uuid: 5d43c3ec-9540-4fa9-9860-7b148940182e
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 18 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU
-    short-id: '!!str 2528fbf6a8670e64'
-  security: reality
-  server: dl-google.hopto.org
-  servername: dl.google.com
-  tls: true
-  type: vless
-  uuid: 301cd89f-9d8c-463e-8fdb-bfb7fb68b416
-- name: 'C - 🇺🇸 US 19 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 167.253.153.253
-  servername: a.c.e.m.n.o.r.s.u.v.w.x.a.c.trevely.de5.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: ec3202af-2aee-4d2f-ab4c-e64e51c0e047
-  ws-opts:
-    headers:
-      Host: a.c.e.m.n.o.r.s.u.v.w.x.a.c.trevely.de5.net
-    path: /?ed=2560fp=random
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 20 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU
-    short-id: '!!str f20bd44f8e2bcfde'
-  security: reality
-  server: dl-google.hopto.org
-  servername: dl.google.com
-  tls: true
-  type: vless
-  uuid: 5d51d240-749c-4ca1-94b3-5bbaa89cb340
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 21 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU
-    short-id: '!!str fc09897afdd53bbd'
-  security: reality
-  server: dl-google.hopto.org
-  servername: dl.google.com
-  tls: true
-  type: vless
-  uuid: 9745ab92-c39d-4a5b-ad5e-4fd08bd7cebc
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 22 TG: @nodpai'
-  port: 443
-  security: tls
-  server: 144.31.127.55
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: 322ffd77-9adc-4e10-8302-a8bcc14555a0
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇺🇸 US 23 TG: @nodpai'
-  port: 30829
-  server: v29.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 24 TG: @nodpai'
+  name: 'B - 🇺🇸 US 27 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
     public-key: sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8
     short-id: '!!str ad8c7a6ace2f'
   security: reality
+  server: download.spectrum.vu
+  servername: download.spectrum.vu
+  tls: true
+  type: vless
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 28 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU
+    short-id: '!!str 67524e5c79b12d07'
+  security: reality
+  server: dl-google.hopto.org
+  servername: dl.google.com
+  tls: true
+  type: vless
+  uuid: 388dcf69-ef89-415d-afcf-3acb099fd6cb
+- name: 'B - 🇺🇸 US 29 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 139.59.239.116
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 30 TG: @nodpai'
+  port: 443
+  reality-opts:
+    public-key: u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU
+    short-id: '!!str 291e3d355bd5afc9'
+  security: reality
+  server: dl-google.hopto.org
+  servername: dl.google.com
+  tls: true
+  type: vless
+  uuid: 4e48ccdf-4917-4e3b-9fab-3cc897ac18a9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 31 TG: @nodpai'
+  port: 443
+  security: tls
+  server: dl-google.hopto.org
+  servername: dl.google.com
+  tls: true
+  type: vless
+  uuid: 301cd89f-9d8c-463e-8fdb-bfb7fb68b416
+- name: 'C - 🇺🇸 US 32 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 45.144.234.149
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'C - 🇺🇸 US 33 TG: @nodpai'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-004.fastervpn.world
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'C - 🇺🇸 US 34 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
+    short-id: '!!str c6118398'
+  security: reality
+  server: rc3.muslimtr.ru
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 322ffd77-9adc-4e10-8302-a8bcc14555a0
+- client-fingerprint: random
+  name: 'C - 🇺🇸 US 35 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 114.33.57.170
+  servername: a.c.e.m.n.o.r.s.u.v.w.x.a.c.trevely.de5.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 6d1dfcdf-f221-4765-b104-30216a977914
+  ws-opts:
+    headers:
+      Host: a.c.e.m.n.o.r.s.u.v.w.x.a.c.trevely.de5.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'C - 🇺🇸 US 36 TG: @nodpai'
+  port: 443
+  security: tls
   server: 2.27.63.99
   servername: download.spectrum.vu
   tls: true
@@ -293,172 +387,89 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 26 TG: @nodpai'
+  name: 'C - 🇺🇸 US 37 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
     public-key: u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU
-    short-id: '!!str 56c129612269d2b3'
+    short-id: '!!str 593b6405314fba37'
   security: reality
   server: dl-google.hopto.org
   servername: dl.google.com
   tls: true
   type: vless
-  uuid: 0245ac76-bc02-44f7-9b90-c3b0eca521e6
-- client-fingerprint: chrome
-  name: 'C - 🇺🇸 US 27 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 109.107.171.147
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 28 TG: @nodpai'
-  port: 443
-  security: tls
-  server: dl-google.hopto.org
-  servername: dl.google.com
-  tls: true
-  type: vless
-  uuid: 803f6121-7139-4404-9e43-37aec99a37f2
-- client-fingerprint: chrome
-  name: 'C - 🇺🇸 US 29 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 65.109.205.130
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 30 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU
-    short-id: '!!str 5fb6180d46811b5a'
-  security: reality
-  server: dl-google.hopto.org
-  servername: dl.google.com
-  tls: true
-  type: vless
-  uuid: 2bc587cc-30b1-49f7-a193-13e71bd06f00
-- flow: xtls-rprx-vision-udp443-udp443
-  name: 'C - 🇺🇸 US 31 TG: @nodpai'
-  port: 443
-  security: tls
-  server: ohio1.ap221.com
-  servername: ohio.ap221.com
-  tls: true
-  type: vless
-  uuid: c71ab922-2c35-4f6e-abfe-4950658f7bce
-- name: 美国|@ripaojiedian
-  network: tcp
+  uuid: 4f1e5dbc-8aec-4769-9ade-83eddb314a04
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇺🇸 US 38 TG: @nodpai'
+  port: 30829
+  server: v29.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇺🇸 美国|@ripaojiedian
   password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 4019
   server: 18.181.191.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 美国2|@ripaojiedian
-  network: tcp
+- name: 🇺🇸 美国2|@ripaojiedian
   password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 4019
   server: 18.183.167.10
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 美国3|@ripaojiedian
-  network: tcp
+- name: 🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
   port: 49534
   server: 54.46.42.174
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|1.1MB/s
-  network: ws
-  port: 8880
-  server: 45.130.125.201
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: www.udemy.com.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 🇺🇸US_2|1021KB/s
-  network: ws
-  port: 8880
-  server: 66.45.118.201
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: www.udemy.com.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: UpdateService
-  name: 🇺🇸US_3|1.6MB/s
-  network: grpc
-  port: '2083'
-  reality-opts:
-    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-    short-id: '!!str 6da16b1335651b38'
-  server: us2.appav.net
-  servername: barclays.co.uk
-  tls: true
-  type: vless
-  udp: true
-  uuid: b345f1db-e3ac-41c2-b1fa-d7f28d3a49c9
-  xudp: true
-- alterId: 0
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
+  port: 3057
+  server: 3.113.6.138
+  sni: www.nintendogames.net
+  type: trojan
+- name: 美国2|@ripaojiedian
+  network: tcp
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
+  port: 4019
+  server: 43.198.79.128
+  sni: www.nintendogames.net
+  type: trojan
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 38692
+  server: 18.163.114.38
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 2
   cipher: auto
-  name: 🇺🇸US_4|1.6MB/s
-  network: raw
-  port: '180'
-  server: 82.198.246.9
+  name: 🇺🇸US_2|1017KB/s
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- name: 🇺🇸US_5|1.7MB/s
-  password: 75356919-6ece-455c-ba7a-9f042a60d2c5
-  port: 443
-  server: tn.xbs54as9c6.ru
-  skip-cert-verify: true
-  sni: live.ok.ru
-  tfo: false
-  type: hysteria2
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 🇺🇸US_6|1.1MB/s
+  name: 🇺🇸US_4|1.1MB/s
   network: ws
-  port: 443
-  server: 103.91.219.252
-  servername: ynwta9.api-edge.fgfw.qzz.io
+  port: 39738
+  server: 38.244.5.229
+  servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -468,7 +479,7 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
+      Host: mug.support.gfw.hidns.co
     max-early-data: 2560
     path: /danfeng
 - name: US_speednode_0097
