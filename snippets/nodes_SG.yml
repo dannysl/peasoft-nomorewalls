@@ -1,4 +1,29 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 749
+  h2-opts: {}
+  http-opts: {}
+  name: 'C - 🇸🇬 SG 17 TG: @nodpai'
+  port: 47034
+  server: 47.79.236.9
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6f2879e2-7595-4fc2-ca7e-3c163dbe0d4b
+- name: 'D - 🇸🇬 SG 26 TG: @nodpai'
+  network: ws
+  password: '!!str 162534'
+  port: 8443
+  server: 139.180.143.248
+  skip-cert-verify: true
+  sni: cchh2.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cchh2.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
@@ -23,42 +48,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇸🇬SG_1|1.5MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.152.23
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG_2|1.3MB/s
-  network: ws
-  port: 16618
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
-  ws-opts:
-    headers:
-      Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- name: 🇸🇬SG_3|3.8MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.147.106
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr

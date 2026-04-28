@@ -89,64 +89,76 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇭🇰 HK 17 TG: @nodpai'
-  port: 30809
-  server: v9.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 'D - 🇭🇰 HK 27 TG: @nodpai'
-  port: 54022
-  server: 103.181.164.145
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+  network: http
+  port: 54291
+  server: 103.127.243.66
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP_1|1.5MB/s
-  network: ws
-  port: 22013
-  server: 76c3.earthdraft.onezz.top
-  skip-cert-verify: false
+  http-opts:
+    headers: {}
+    path:
+    - /ABCDE
+  name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+  network: http
+  port: 55386
+  server: 103.127.243.60
   tls: false
   type: vmess
-  uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0
-  ws-opts:
-    headers:
-      Host: ithome.com
-    path: /chat
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 06 TG: @nodpai'
+  country: 🇺🇸US
+  delay: 749
+  h2-opts: {}
+  http-opts: {}
+  name: 'C - 🇸🇬 SG 17 TG: @nodpai'
+  port: 47034
+  server: 47.79.236.9
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6f2879e2-7595-4fc2-ca7e-3c163dbe0d4b
+- name: 'D - 🇸🇬 SG 26 TG: @nodpai'
+  network: ws
+  password: '162534'
+  port: 8443
+  server: 139.180.143.248
+  skip-cert-verify: true
+  sni: cchh2.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cchh2.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 13 TG: @nodpai'
   port: 180
   server: 82.198.246.9
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 09 TG: @nodpai'
-  port: 10001
-  server: ne-cbe4k7vz.neurix.sbs
-  servername: us02.neurix.icu
-  tls: true
-  type: vmess
-  uuid: 7f620257-50b3-4ed6-ac6e-6c6e80b237af
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_1|1.1MB/s
+  name: 'B - 🇺🇸 US 21 TG: @nodpai'
   port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
+  server: 82.198.246.37
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 'B - 🇺🇸 US 22 TG: @nodpai'
+- name: 'B - 🇺🇸 US 35 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 84.19.3.83
+  server: 194.59.5.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -155,11 +167,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 28 TG: @nodpai'
+- name: 'B - 🇺🇸 US 48 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 139.59.239.116
+  server: 91.211.114.208
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -168,35 +180,19 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- alterId: 2
-  cipher: auto
-  metadata:
-    cleanName: US 499 | ⬇️ 2MB/s
-    flag: 🇺🇸
-    multiplier: 1
-    originalName: US 499 | ⬇️ 2MB/s
-    region: 美国
-    tags: []
-  name: 'C - 🇺🇸 US 33 TG: @nodpai'
-  port: 30808
-  server: v8.hdacd.com
-  tfo: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🇺🇸 US
-  delay: 1235
-  http-opts: {}
-  name: 'C - 🇺🇸 US 35 TG: @nodpai'
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
+- name: 'C - 🇺🇸 US 57 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 89.167.100.106
   skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -318,60 +314,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇸🇬SG_1|1.5MB/s
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_2|1.2MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.152.23
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG_2|1.3MB/s
-  network: ws
-  port: 16618
-  server: planb.mojcn.com
+  password: mSzFVhUczD
+  port: '443'
+  server: 104.20.5.134
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: abest.api-tel.xyz
+  type: trojan
   udp: true
-  uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
   ws-opts:
     headers:
-      Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱NL_2|2.8MB/s
-  port: 30830
-  server: v30.hdacd.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_2|1017KB/s
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: 🇸🇬SG_3|3.8MB/s
+- name: 🇩🇪DE_3|1009KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
-  server: 172.64.147.106
+  server: 104.20.5.134
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -379,6 +342,20 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /tr
+- name: 🇲🇩MD_1|1.1MB/s
+  network: ws
+  password: mJVGfrOkZGnMywJD2uwmuXgOQ
+  port: '443'
+  server: hl-freedom-2.undef.network
+  skip-cert-verify: false
+  sni: HL-FREEDOM-2.UNDEF.NETWORK
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
+    path: /f2fc2a1f
 - name: AT_speednode_0001
   network: ws
   password: '1234567890'
