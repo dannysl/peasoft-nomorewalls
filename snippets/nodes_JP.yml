@@ -2,36 +2,36 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
-  network: http
-  port: 54291
-  server: 103.127.243.66
-  type: vmess
-  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   http-opts:
     headers: {}
     path:
     - /ABCDE
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 08 TG: @nodpai'
   network: http
   port: 55386
   server: 103.127.243.60
   tls: false
   type: vmess
   uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 'C - 🇯🇵 JP 10 TG: @nodpai'
+  network: http
+  port: 54291
+  server: 103.127.243.66
+  type: vmess
+  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1951
-  server: 54.249.198.171
+  port: 16919
+  server: 18.183.180.142
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -39,27 +39,30 @@ proxies:
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 4380
-  server: 52.197.180.134
+  server: 18.162.50.11
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 4380
-  server: 57.180.240.230
+  port: 9201
+  server: 3.112.1.63
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: '0'
-  cipher: auto
-  name: 🇯🇵JP_1|1.5MB/s
-  network: tcp
-  port: '8693'
-  server: 212.50.246.20
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- client-fingerprint: chrome
+  name: 🇯🇵JP_1|3.3MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 17081
+  server: 176.119.148.212
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
-  uuid: c8562251-cf57-44c1-ad2f-b2c69d9bd675
-  xudp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2

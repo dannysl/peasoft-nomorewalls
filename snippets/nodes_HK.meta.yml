@@ -1,35 +1,85 @@
 proxies:
-- client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 01 TG: @nodpai'
-  network: tcp
+- name: 'B - 🇭🇰 HK 03 TG: @nodpai'
+  password: 75356919-6ece-455c-ba7a-9f042a60d2c5
   port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  security: reality
-  server: 8.218.214.223
-  servername: www.starwars.com
-  tls: true
-  type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  server: tn.xbs54as9c6.ru
+  skip-cert-verify: true
+  sni: live.ok.ru
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 02 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
   port: 443
   reality-opts:
     public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
     short-id: '!!str '
-  server: 8.218.99.8
-  servername: j.6sc.co
+  server: 8.217.48.65
+  servername: cdn.userway.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- encryption: none
-  name: 'D - 🇭🇰 HK 03 TG: @nodpai'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇭🇰 HK 05 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6eN2NciEaZis5J4muRRqpfLQ1OglI3A8lNSTmAGo6Do
+    short-id: '!!str 3c6fc84d'
+  security: reality
+  server: 64.188.58.186
+  servername: stats.vk-portal.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 8ef19221-6d5e-4bce-baa1-7c043eae3309
+- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
+  obfs: salamander
+  obfs-password: YmGRdMZ74sEC91FN
+  password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
+  port: 20003
+  server: zz.66jc.xyz
+  skip-cert-verify: true
+  sni: hkzz.66jc.xyz
+  type: hysteria2
+  udp: true
+- name: 'B - 🇭🇰 HK 07 TG: @nodpai'
+  network: ws
+  port: 17820
+  security: tls
+  server: s5.db-link.in
+  servername: 48afa0c5c9.shopify.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
+  ws-opts:
+    headers:
+      Host: 48afa0c5c9.shopify.com
+    path: /db102448afa0c5c9fp=chrome
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
+  network: tcp
+  port: 8080
+  reality-opts:
+    public-key: bXstTdAgEyOn8LEMM_K2gIOw7T2iKhr6l-lXcrF4PlM
+  security: reality
+  server: hk.chinablog.xyz
+  servername: www.liblib.art
+  tls: true
+  type: vless
+  uuid: 360f1d71-f8dd-4c71-aa4f-347486312dca
+- client-fingerprint: chrome
+  encryption: none
+  name: 'C - 🇭🇰 HK 11 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 172.67.75.144
+  server: 188.114.98.0
   servername: dabaius2.sylu.net
   tls: true
   type: vless
@@ -47,19 +97,26 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 64
+  cipher: auto
+  name: 'D - 🇭🇰 HK 13 TG: @nodpai'
+  port: 54022
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 52687
-  server: 54.249.198.171
+  port: 2008
+  server: 13.193.224.0
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4327
-  server: 54.250.34.119
+  port: 9211
+  server: 52.194.227.165
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -81,24 +138,31 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 🇭🇰HK_1|2.6MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|1.3MB/s
   network: ws
-  port: 443
-  server: 43.154.4.49
-  servername: mug.support.gfw.hidns.co
+  port: 16632
+  server: m.cnmjin.net
   skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 6df40ca9-5c38-4a75-adf4-e39663733ee1
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: mug.support.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
+      Host: 0ee06983c43a249fba89408bfdf41bb0.mobgslb.tbcache.com
+    path: /
+- name: 🇭🇰HK_2|1.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 52122
+  server: 116.206.178.205
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2

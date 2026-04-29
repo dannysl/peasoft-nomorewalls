@@ -1,20 +1,40 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: UpdateService
   name: 'A - 🇷🇺 RU 01 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 47255
-  server: 154.64.248.134
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  network: grpc
+  port: 2083
+  reality-opts:
+    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+    short-id: '!!str 6da16b1335651b38'
+  security: reality
+  server: 5.188.224.135
+  servername: ir.ozone.ru
   tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+  type: vless
+  uuid: e68aab34-64bb-4052-a1a0-5e26b04f68c1
 - client-fingerprint: chrome
-  name: 'B - 🇷🇺 RU 02 TG: @nodpai'
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: UpdateService
+  name: 'A - 🇷🇺 RU 02 TG: @nodpai'
+  network: grpc
+  port: 2083
+  reality-opts:
+    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+    short-id: '!!str 6da16b1335651b38'
+  security: reality
+  server: 5.188.224.68
+  servername: ir.ozone.ru
+  tls: true
+  type: vless
+  uuid: 74d3057f-5d2b-4d21-8819-3b387d47c0a4
+- client-fingerprint: chrome
+  name: 'A - 🇷🇺 RU 03 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 15124
@@ -32,7 +52,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: UpdateService
-  name: 'B - 🇷🇺 RU 03 TG: @nodpai'
+  name: 'A - 🇷🇺 RU 04 TG: @nodpai'
   network: grpc
   port: 2083
   reality-opts:
@@ -43,33 +63,101 @@ proxies:
   servername: ir.ozone.ru
   tls: true
   type: vless
-  uuid: 960eb19c-3238-44f2-ae20-dfbba5f1f778
-- name: 'B - 🇷🇺 RU 04 TG: @nodpai'
-  password: 75356919-6ece-455c-ba7a-9f042a60d2c5
-  port: 7081
-  server: tn.xbs54as9c6.ru
-  skip-cert-verify: true
-  sni: rzd.ru
-  tfo: false
-  type: hysteria2
-- name: 'B - 🇷🇺 RU 05 TG: @nodpai'
-  password: 75356919-6ece-455c-ba7a-9f042a60d2c5
-  port: 443
-  server: tn.xbs54as9c6.ru
-  skip-cert-verify: true
-  sni: live.ok.ru
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 'B - 🇷🇺 RU 06 TG: @nodpai'
+  uuid: 60ae82da-f839-4125-aa1e-3df0e2a5c30c
+- encryption: none
+  name: 🇷🇺RU_1|2.0MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 114.33.57.170
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  port: 7000
+  server: 178.72.186.76
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 75356919-6ece-455c-ba7a-9f042a60d2c5
+  ws-opts:
+    path: /stream
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇷🇺RU_2|1.5MB/s
+  network: grpc
+  port: '5432'
+  reality-opts:
+    public-key: WNsIqrfrK3gEmFFkeP2Ja8lvt9vGpFyxV612QdqYPC8
+    short-id: '!!str 489da765'
+  server: ru150.tcpnet.fun
+  servername: www.samsung.com
   tls: true
-  type: trojan
+  type: vless
+  udp: true
+  uuid: f8c5b018-f51a-4137-be8a-50a451630589
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇷🇺RU_3|1.0MB/s
+  network: grpc
+  port: '5432'
+  reality-opts:
+    public-key: WNsIqrfrK3gEmFFkeP2Ja8lvt9vGpFyxV612QdqYPC8
+    short-id: '!!str 489da765'
+  server: 45.144.30.81
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8c5b018-f51a-4137-be8a-50a451630589
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇷🇺RU_4|1.3MB/s
+  network: tcp
+  port: '24207'
+  reality-opts:
+    public-key: V8s9nXxrXloDwOOGNdceeMJAvggTjWG-Ax9R9Y0muEk
+    short-id: '!!str 69'
+  server: 31.192.111.158
+  servername: web.max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6f85c9b-169b-4a1e-b051-2011bcfa2c23
+  xudp: true
+- encryption: none
+  name: 🇷🇺RU_5|2.0MB/s
+  network: ws
+  port: '4100'
+  server: 217.149.25.86
+  type: vless
+  udp: true
+  uuid: 75356919-6ece-455c-ba7a-9f042a60d2c5
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: live.ok.ru
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /v1
+  xudp: true
+- encryption: none
+  name: 🇷🇺RU_6|2.0MB/s
+  network: ws
+  port: '4100'
+  server: 80.90.185.102
+  type: vless
+  udp: true
+  uuid: 75356919-6ece-455c-ba7a-9f042a60d2c5
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: /v1
+  xudp: true
