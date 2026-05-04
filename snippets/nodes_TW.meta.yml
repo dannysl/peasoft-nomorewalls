@@ -1,14 +1,12 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
   port: 30811
   server: v11.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+- name: 'B - 🇹🇼 TW 06 TG: @nodpai'
   network: ws
   port: 6235
   security: tls
@@ -21,4 +19,28 @@ proxies:
   ws-opts:
     headers:
       Host: baidu.com
-    path: /xxxxhttp
+    path: /xxxxhttpfp=chrome
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇹🇼 TW 07 TG: @nodpai'
+  network: ws
+  port: 16616
+  server: m.cnmjin.net
+  type: vmess
+  uuid: d6cad560-2573-4bbe-ac89-a4c4ff8709cb
+  ws-opts:
+    headers:
+      Host: 1c67f0f9a8a5dfc3dc21086be6f49765.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇹🇼 TW 08 TG: @nodpai'
+  network: ws
+  port: 16616
+  server: planb.mojcn.com
+  type: vmess
+  uuid: d6cad560-2573-4bbe-ac89-a4c4ff8709cb
+  ws-opts:
+    headers:
+      Host: 1c67f0f9a8a5dfc3dc21086be6f49765.mobgslb.tbcache.com
+    path: /
