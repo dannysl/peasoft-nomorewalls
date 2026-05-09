@@ -1,5 +1,5 @@
 proxies:
-- name: 'A - 🇹🇼 TW 02 TG: @nodpai'
+- name: 'A - 🇹🇼 TW 05 TG: @nodpai'
   password: 8r%3C%5B9%27l6hAO%238ZQi
   port: 443
   server: 114.33.57.170
@@ -8,7 +8,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
   network: ws
   port: 16616
   server: planb.mojcn.com
@@ -20,19 +20,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
-  network: ws
-  port: 16616
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: cef172fc-87b0-4db7-9ffc-52b5aca91014
-  ws-opts:
-    headers:
-      Host: 781a7e8778459cb48b666fc3985a2450.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 09 TG: @nodpai'
   network: ws
   port: 16616
   server: m.cnmjin.net
@@ -44,12 +32,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 11 TG: @nodpai'
   network: ws
   port: 16616
   server: t.cnmjcn.cyou
   type: vmess
-  udp: true
   uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
   ws-opts:
     headers:
