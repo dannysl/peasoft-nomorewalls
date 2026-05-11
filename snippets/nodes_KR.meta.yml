@@ -1,95 +1,25 @@
 proxies:
-- name: 🇰🇷KR_1|1.9MB/s
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇰🇷KR_2|1.5MB/s
   network: ws
-  port: 10243
-  server: 211.193.169.223
-  servername: sni.111000.v6.army
+  port: 37810
+  server: 210.97.51.84
+  servername: igvdi.edge-node-sg.fgfw.indevs.in
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sni.111000.v6.army
-    path: /?ed=2560
-- name: 🇰🇷KR_2|1.1MB/s
-  network: ws
-  port: 18789
-  server: 210.123.143.214
-  servername: sni.111000.v6.army
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.army
-    path: /?ed=2560
-- name: 🇰🇷KR_3|1.3MB/s
-  network: ws
-  port: 37215
-  server: 222.98.185.243
-  servername: sni.111000.v6.army
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.army
-    path: /?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇰🇷KR_4|1.5MB/s
-  network: ws
-  port: 22085
-  server: 116.44.147.152
-  servername: sni.111000.v6.army
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.army
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR_5|1.9MB/s
-  network: ws
-  port: '18786'
-  server: 222.97.71.115
-  servername: sni.111000.v6.army
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.army
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.162 Safari/537.36
-    path: '/?ed=2560 '
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR_6|1.7MB/s
-  network: ws
-  port: '10005'
-  server: 118.35.104.76
-  servername: sni.111000.v6.army
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.army
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /?ed=2560
-  xudp: true
+      Host: igvdi.edge-node-sg.fgfw.indevs.in
+    max-early-data: 2560
+    path: /danfeng
 - client-fingerprint: chrome
   name: KR_speednode_0031
   network: ws
@@ -105,6 +35,20 @@ proxies:
     headers:
       Host: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
     path: /@Marisa_kristifp=chrome
+- name: KR_speednode_0033
+  network: ws
+  port: 10891
+  server: 165.246.171.218
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi
 - name: KR_speednode_0034
   port: 1090
   server: 121.169.46.116
