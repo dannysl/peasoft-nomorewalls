@@ -1,1 +1,30 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: 'A - 🇹🇼 TW 04 TG: @nodpai'
+  network: ws
+  port: 18246
+  security: tls
+  server: 118.163.124.120
+  servername: workjoey.freen3.cc.cd
+  tls: true
+  type: vless
+  uuid: 7f50ec42-4673-41e2-94be-ae6253909def
+  ws-opts:
+    headers:
+      Host: workjoey.freen3.cc.cd
+    path: /?ed=2048
+- encryption: none
+  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+  network: ws
+  port: 2087
+  security: tls
+  server: 172.67.76.40
+  servername: mybloh.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  ws-opts:
+    headers:
+      Host: mybloh.ccwu.cc
+    path: /
