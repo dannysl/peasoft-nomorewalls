@@ -31,7 +31,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  fingerprint: chrome
+  client-fingerprint: chrome
   name: 🇩🇪  Germany『 🚀 』
   obfs: salamander
   obfs-password: 8s7t1sNDH36vU8_Ixd7MckIY
